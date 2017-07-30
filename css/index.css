@@ -1,0 +1,71 @@
+
+
+.data{
+  background-color: red;
+
+}
+.left, .right{
+  height : inherit;
+}
+.row {
+ height : inherit;
+}
+.main {
+  height : inherit;
+}
+.left{
+  background-color : #313852;
+}
+.site-description{font-family:"Noto Sans",sans-serif;
+font-size:12px;font-size:1.9rem;font-weight:400;
+color: white;
+line-height:1.5;margin: .5em 0 10px 20px;
+    opacity:.7}
+
+.masthead{
+  margin-top : 80px;
+
+}
+.display{
+
+  margin-bottom : 40px;
+
+}
+.name-pic{
+
+  margin : 0 auto;
+  color : white;
+
+}
+.sidebar{
+  padding : 0px 40px;
+
+}
+.social{
+  padding : 0px 20px;
+}
+
+.name{
+
+  color :white;
+font-size: 2.7rem;
+opacity: 1;
+  font-family: "Noto Sans",sans-serif;
+  font-weight: 700;
+  margin-left: 50px;
+
+}
+a:hover{
+  text-decoration: none;
+  color : grey;
+}
+.fa{
+  color : white;
+  margin : 10px;
+}
+
+@media only screen and (min-device-width: 480px) {
+    html, body {
+      height: 100%;
+  }
+}
